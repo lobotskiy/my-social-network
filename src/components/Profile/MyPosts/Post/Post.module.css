@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Lalezar&family=Titillium+Web:ital,wght@1,400;1,700&display=swap');
+
+.item{
+    margin-top: 5px;
+    border: 2px solid #26a69a;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  
+}
+
+.post{
+   
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px 400px;
+}
+
+.postInfo{
+    display:grid;
+    grid-template-columns: 200px 50px;
+    padding: 10px;
+    border: 2px solid #b8b8b8;
+    border-radius: 10px;
+    background-color: white;
+   max-width: 600px;
+    height: 65px;
+    font-family: 'Contrail One', cursive;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    color: #cc6600;
+    font-size: 18px;
+    
+}
+
+.like{
+    position: relative;
+    bottom: 35px;
+    margin-left: 440px;
+    font-size: 15px;
+    color: #525252;
+    
+}
