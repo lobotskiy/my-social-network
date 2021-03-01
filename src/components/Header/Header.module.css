@@ -6,3 +6,19 @@
 .header img{
   width: 92px;
 }
+
+.loginBlock{
+  padding: 17px;
+  float: right;
+  color: #3b3b3b;
+  
+}
+.loginBlock a{
+  text-decoration: none;
+  color: #b8b8b8;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #3b3b3b;
+}
+
