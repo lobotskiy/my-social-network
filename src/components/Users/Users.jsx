@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 let Users = (props) => {
 
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
-
+     
     let pages = [];
     for (let i = 1; i <= pagesCount; i++) {
         pages.push(i);
@@ -25,14 +25,11 @@ let Users = (props) => {
                     </div>
                     <div>
                         {u.followed
-                            ? <button className={s.btn} disabled={props.followingInProgress
-                                .some(id => id === u.id)}
-                                onClick={() => { props.unfollow(u.id) }}>
-                                Unfollow</button>
+                            ? <button className={s.btn}
+                                disabled={props.followingInProgress.some(id => id === u.id)}
+                                onClick={() => { props.unfollow(u.id) }}> UnFollow</button>
                             : <button className={s.btn} disabled={props.followingInProgress.some(id => id === u.id)}
-                                onClick={() => { props.follow(u.id) }}>
-                                Follow</button>}
-
+                                onClick={() => { props.follow(u.id) }}>Follow</button>}
                     </div>
                     <div className={s.userInfo}>
                         <div>

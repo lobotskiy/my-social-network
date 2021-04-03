@@ -70,9 +70,13 @@ textarea:focus {
 .selectedPage{
     font-weight: bold;
     cursor: pointer;
+    border: 1px solid black;
+
 }
 .pages{
-   padding-top: 30px;
-   margin: 20px;
+   padding: 10px;
+   margin: 40px 10px 10px;
+   max-width: 1000px;
+   border: #cc6600 1px solid;
    
 }
